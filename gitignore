@@ -1,0 +1,35 @@
+# Wallpaper images (user provides their own)
+wallpaper.jpg
+wallpaper.png
+*.jpg
+*.png
+*.jpeg
+*.bmp
+
+# Intune packages
+*.intunewin
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PowerShell
+*.ps1xml
