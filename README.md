@@ -23,6 +23,21 @@ Deploy corporate wallpapers to Windows 10/11 devices via Microsoft Intune Win32 
 3. **User logs in**: Task automatically applies wallpaper in user context
 4. **Wallpaper appears**: Fill style, maintains aspect ratio, no black bars
 
+## How It Works
+
+1. **Intune executes script as SYSTEM**: Copies wallpaper to `C:\ProgramData\CorporateWallpapers`
+2. **Creates Scheduled Task**: Configured to run at logon of any user
+3. **User logs in**: Task automatically applies wallpaper in user context
+4. **Wallpaper appears**: Fill style, maintains aspect ratio, no black bars
+
+## Screenshot
+
+![Corporate Wallpaper Applied](exemplo.jpg)
+*Example of wallpaper beeing applied, no logoff necessary in this particular case*
+
+## Quick Start
+
+
 ## Quick Start
 
 ### Prerequisites
